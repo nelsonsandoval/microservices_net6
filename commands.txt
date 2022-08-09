@@ -1,0 +1,5 @@
+#Step 0
+dotnet new sln --output aspnetrun-microservices
+#Step 1
+rename the output directory
+mv aspnetrun-microservices src
