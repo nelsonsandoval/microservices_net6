@@ -3,3 +3,12 @@ dotnet new sln --output aspnetrun-microservices
 #Step 1
 rename the output directory
 mv aspnetrun-microservices src
+#Step 2
+Create directory structure
+mkdir -p services/catalog
+#Step 3
+Create new project
+dotnet new webapi --name Catalog.API
+#Step 4
+Add to sln
+dotnet sln add services/catalog/Catalog.API/Catalog.API.csproj
