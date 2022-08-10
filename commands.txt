@@ -12,3 +12,8 @@ dotnet new webapi --name Catalog.API
 #Step 4
 Add to sln
 dotnet sln add services/catalog/Catalog.API/Catalog.API.csproj
+#Step 5
+docker run -d -p 27017:27017 --name shopping-mongo mongo
+#Step 5-B
+docker start shopping-mongo
+
