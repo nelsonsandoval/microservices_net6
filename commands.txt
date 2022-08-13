@@ -26,3 +26,10 @@ show databases
 use CatalogDB
 db.createCollection('Products')
 db.Products.insertMany([{ 'Name':'Asus Laptop','Category':'Computers', 'Summary':'Summary', 'Description':'Description', 'ImageFile':'ImageFile', 'Price':54.93 }, { 'Name':'HP Laptop','Category':'Computers', 'Summary':'Summary', 'Description':'Description', 'ImageFile':'ImageFile', 'Price':88.93 } ])
+
+#Repository Pattern
+DB - Repository - Business Object - API
+#Step 10
+#Add libraries
+https://www.nuget.org/packages/
+dotnet add package MongoDB.Driver --version 2.17.1
